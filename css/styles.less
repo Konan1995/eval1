@@ -30,7 +30,7 @@ body {
         display: flex;
         align-items: center;
         justify-content: space-around;
-
+        margin-right: 50px;
     }
 
     .navbar {
@@ -46,7 +46,6 @@ body {
       display: flex;
       flex-direction: row;
       align-items: center;
-      width: 40%;
       font-size: 24px;
     }
 
@@ -65,16 +64,37 @@ body {
     }
 
     .jabba {
-      width: 98%;
-      margin-left: 1%;
-      margin-right: 1%;
+      width: 100%;
+    }
+
+    .contact-text {
+      color: red;
+    }
+
+    .img-chat {
+      width: 150px;
+      height: 120px;
+    }
+    .chat-second {
+      margin-bottom: 15px;
+    }
+    .chat-first {
+      margin-bottom: 15px;
+    }
+    .chat-third {
+      margin-bottom: 15px;
+    }
+    .chat-fourth {
+      margin-bottom: 15px;
+    }
+    .chat-fifth {
+      margin-bottom: 15px;
     }
   }
 
   footer {
       bottom: 0;
       height: 50px;
-      background-color: gray;
       width: 100%;
 
     a {
@@ -91,5 +111,59 @@ body {
     .gh-logo {
       width: 50px;
     }
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  h1 {
+    font-size: 24px;
+  }
+
+  .navbar {
+    font-size: 16px!important;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+
+  .text {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  h1 {
+    font-size: 18px;
+  }
+
+  .navbar {
+    font-size: 12px!important;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  .text {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  h1 {
+    display: none;
+  }
+
+  .navbar {
+    font-size: 10px!important;
+  }
+
+  h2 {
+    font-size: 16px;
+  }
+
+  .text {
+    font-size: 12px;
   }
 }

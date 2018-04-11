@@ -8,24 +8,24 @@
   list-style: none;
 }
 
-header {
-
-}
-
-main {
-
-}
-footer {
-  background-color: lightyellow;
-}
-
-
-nav>ul>a>li:hover
-{
+nav>ul>a>li:hover {
   color: white;
 }
 
-footer>ul>a>li:hover
-{
+main>p>a:hover {
   color: white;
+}
+
+footer>ul>a>li:hover {
+  color: white;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-row-reverse {
+  display: flex;
+  flex-direction: row-reverse;
 }
